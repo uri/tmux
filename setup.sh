@@ -1,5 +1,7 @@
 #!/bin/sh
 
+brew install reattach-to-user-namespace
+
 ln -fs `pwd`/tmux.conf $HOME/.tmux.conf
 ln -fs `pwd`/tmux-airline.theme $HOME/.tmux-airline.theme
 
